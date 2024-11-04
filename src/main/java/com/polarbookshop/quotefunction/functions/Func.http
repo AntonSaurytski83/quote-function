@@ -1,0 +1,14 @@
+### get all allQuotes
+GET http://localhost:9102/allQuotes
+
+### get randomQuote
+GET http://localhost:9102/randomQuote
+
+### get randomJenre
+GET http://localhost:9102/genreQuote Accept:text/event-stream --stream
+
+### get all allQuotes stream
+GET http://localhost:9102/   Accept:text/event-stream --stream
+
+### get pipiline
+GET http://localhost:9102/genreQuote,logQuote?genre=FANTASY

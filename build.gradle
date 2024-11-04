@@ -44,9 +44,9 @@ tasks.named('bootBuildImage') {
 
 	docker {
 		publishRegistry {
-			username = project.findProperty("registryUsername")
-			password = project.findProperty("registryToken")
-			url = project.findProperty("registryUrl")
+			username = "antony83"
+			password = "dckr_pat_h8bnPdixkcCjXLTAYJ00kRcKI3Q"
+			url = "https://hub.docker.com/repositories/antony83"
 		}
 	}
 }
